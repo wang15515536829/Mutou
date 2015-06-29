@@ -215,6 +215,7 @@
 		3441E9711B3D025800E0A016 /* message */ = {
 			isa = PBXGroup;
 			children = (
+				34D26A2D1B40E84C007FD431 /* controller */,
 				3441E99E1B3D4BE000E0A016 /* ItemCell */,
 				3441E9811B3D2D4D00E0A016 /* View */,
 			);
@@ -312,6 +313,13 @@
 				34C14BF61B3ECE450099A3CB /* TAPageControl.m */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		34D26A2D1B40E84C007FD431 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
