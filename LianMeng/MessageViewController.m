@@ -22,15 +22,18 @@
     [super loadView];
     self.messageView = [[MessageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.view = self.messageView;
-    self.messageView.backgroundColor = [UIColor lightGrayColor];
+
     
 }
 
+
+#warning Vi 滑动条 - 添加
 - (void)viewDidLoad {
     [super viewDidLoad];
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
+        self.messageView.backgroundColor = [UIColor lightGrayColor];
     
     //创建一个小的View放button
     UIView *vi1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.messageView.frame.size.width, 30)];

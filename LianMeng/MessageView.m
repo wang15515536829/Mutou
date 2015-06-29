@@ -97,6 +97,9 @@
     [en start];
 }
 #pragma  mark - 请求数据成功的方法
+
+#warning 数组--------
+
 - (void)netWorkDidFinishLoading:(NetworkEngine1 *)engine withInfo:(NSData *)data
 {
     // 解析
@@ -194,6 +197,8 @@
 {
     return 200;
 }
+
+#warning 滑动条----
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
