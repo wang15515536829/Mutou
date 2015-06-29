@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, retain) UINavigationController *megssage;
+
+@property (nonatomic, retain) UINavigationController *hear;
 
 @end
 
